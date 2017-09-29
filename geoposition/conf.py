@@ -9,6 +9,7 @@ class AppSettings(object):
         'MAP_OPTIONS': {},
         'MARKER_OPTIONS': {},
         'GOOGLE_MAPS_API_KEY': None,
+        'GOOGLE_MAPS_API_JS':  None,
     }
     prefix = 'GEOPOSITION'
     required_settings = ['GOOGLE_MAPS_API_KEY']
