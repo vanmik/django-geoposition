@@ -51,8 +51,6 @@ class GeopositionWidget(forms.MultiWidget):
 
         js.append('geoposition/geoposition.js')
 
-        print 'js', js
-
         css = {
             'all': ('geoposition/geoposition.css',)
         }
